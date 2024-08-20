@@ -1,0 +1,29 @@
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.title-lg{
+  font: var(--title-lg);
+ 
+}
+
+.title-md{ 
+   font: var(--title-md)
+}
+
+.title-sm{
+  font: var(--title-sm);
+  color: var(--gray-400)
+}
+
+.text-sm{
+  font: var(--text-sm)
+}
