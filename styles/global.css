@@ -30,17 +30,21 @@
   --text-md: 169 16px/140% var(--font-family-maven);
   --text-sm: 169 14px/140% var(--font-family-maven);
 
-         
+       
 } 
 
-body {
-  background-image: url(../assets/images/Background_Intro.png);
+body{
+  background-color: var(--gray-200);
+}
+
+header{
+  background: url(../assets/images/Background_Intro.png);
+  max-width: 100%;
 }
 
 #container {
-  max-width: 1366px;
   height: 750px;
-  flex: none;
+
 }
 
 
