@@ -6,6 +6,10 @@
   gap: 20px;
 }
 
+.gap-24 {
+  gap: 24px;
+}
+
 .gap-32 {
   gap: 32px;
 }
@@ -21,9 +25,28 @@
 
 .title-sm{
   font: var(--title-sm);
-  color: var(--gray-400)
+  font-weight: bold;
+  color: var(--gray-600)
 }
 
 .text-sm{
-  font: var(--text-sm)
+  font: var(--text-sm);
+  color: var(--gray-500)
+}
+
+/* utility-first */
+.grid {
+  display: grid;
+}
+
+.grid-flow-col{
+  grid-auto-flow: column;
+}
+
+.grid-cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-cols-3 {
+  grid-template-columns: 1fr 1fr 1fr;
 }
