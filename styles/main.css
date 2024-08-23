@@ -135,3 +135,84 @@ section #header {
 }
 
 
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 128px 120px 200px;
+  height: 787px;
+
+  background: url(../assets/images/Background_Contacts.png);
+
+  p{
+    justify-self: center;
+    margin-top: 8px;
+    color: var(--purple);
+  }
+
+  h3{
+    justify-self: center;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+
+  span {
+    font: var(--text-md);
+    color: var(--gray-500);
+    justify-self: center;
+    margin-top: 8px;
+    margin-bottom: 48px;
+  }
+}
+
+#links{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 400px;
+  height: 320px;
+}
+
+.socialButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 12px;
+
+  width: 400px;
+  height: 68px;
+
+  background: var(--gray-300);
+  border-radius: 8px;
+
+  img {
+    width: 28px;
+    height: 28px;
+  }
+
+  h3{
+    width: 288px;
+    height: 22px;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 8px;
+    color: var(--gray-500);
+
+  }
+
+  .button{
+    width: 20px;
+    height: 20px;
+  }
+
+}
+
+
